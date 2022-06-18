@@ -54,4 +54,4 @@ balasan komentar. Berdasarkan data di atas, total komentar adalah 7 komentar.
 
 ## Solution
 
-Solusi dari soal ini terdapat file [solution.ts]('./solution.ts')
+Solusi dari soal ini terdapat file [solution.ts](solution.ts)
