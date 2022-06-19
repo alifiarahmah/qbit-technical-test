@@ -10,7 +10,7 @@ function Tile(props: any) {
 				<Box 
 					height="250px"
 					width="100%"
-					borderRadius="inherit"
+					borderTopRadius="inherit"
 					bgImage="url(https://unsplash.com/photos/lihCTIOP28U/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjU1NjM5MDUx&force=true&w=640)"
 					bgPos="top"
 					bgSize="cover"

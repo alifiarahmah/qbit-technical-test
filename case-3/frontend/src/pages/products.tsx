@@ -1,4 +1,4 @@
-import { Grid, GridItem, Text } from "@chakra-ui/react";
+import { Grid, Text } from "@chakra-ui/react";
 import NavbarFooter from "../layouts/navbar-footer";
 import Tile from "../components/products/tile";
 
