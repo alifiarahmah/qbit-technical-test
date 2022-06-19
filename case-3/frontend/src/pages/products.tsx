@@ -2,6 +2,8 @@ import { Grid, Text } from "@chakra-ui/react";
 import NavbarFooter from "../layouts/navbar-footer";
 import Tile from "../components/products/tile";
 
+import { productList } from "../data/productlist";
+
 function Products() {
 	return (
 		<NavbarFooter>
@@ -13,13 +15,9 @@ function Products() {
 				my={10} 
 				alignItems="stretch"
 			>
-				<Tile />
-				<Tile />
-				<Tile />
-				<Tile />
-				<Tile />
-				<Tile />
-				<Tile />
+				{productList.map((product: any) => (
+					<Tile key={product.id} name={product.name} image={product.image} price={product.price} />
+				))}
 			</Grid>
 		</NavbarFooter>
 	);
